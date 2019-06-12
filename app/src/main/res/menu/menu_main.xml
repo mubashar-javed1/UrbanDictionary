@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.mainactivity.MainActivity">
+
+    <item
+        android:id="@+id/menu_up_asc"
+        android:icon="@drawable/ic_thumb_up_menu"
+        android:orderInCategory="300"
+        android:title="@string/thumb_up_acs"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_up_des"
+        android:icon="@drawable/ic_thumb_up_menu"
+        android:orderInCategory="300"
+        android:title="@string/thumb_up_des"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_down_asc"
+        android:icon="@drawable/ic_thumb_down"
+        android:orderInCategory="300"
+        android:title="@string/thumb_down_acs"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_down_des"
+        android:icon="@drawable/ic_thumb_down"
+        android:orderInCategory="300"
+        android:title="@string/thumb_down_des"
+        app:showAsAction="never" />
+
+</menu>

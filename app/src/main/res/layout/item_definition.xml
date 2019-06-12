@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardBackgroundColor="@color/colorHeader"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tv_def"
+            style="@style/text_heading" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/cardview_dark_background"/>
+
+        <TextView
+            android:id="@+id/tv_example"
+            style="@style/text_normal" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/btn_thumb_up"
+                android:layout_width="wrap_content"
+                android:drawableStart="@drawable/ic_thumb_up"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn_thumb_down"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:drawableStart="@drawable/ic_thumb_down"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Urban Dictionary</string>
+    <string name="show_result">Show Result</string>
+    <string name="no_result_found">No Result Found</string>
+    <string name="no_item_for_sort">Sorting Not Possible</string>
+    <string name="network_error">No Network Connection</string>
+    <string name="cache">Getting Result from Cache</string>
+    <string name="enter_a_term">Enter a term</string>
+    <string name="thumb_up_acs">Thumb up ACS</string>
+    <string name="thumb_up_des">Thumb up DES</string>
+    <string name="thumb_down_acs">Thumb Down ACS</string>
+    <string name="thumb_down_des">Thumb Down DES</string>
+</resources>
